@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./src/main.css"/>
+    <title>Gama Academy - Calculadora de churrasco</title>
+  </head>
+  <body class="background">
+    <header>
+	<div align = "center">
+	  <img src="hacker.svg" width="100px" height="150px" align = "center"/>
+	</div>
+      <h5 class="title">GAMA ACADEMY</h5>
+      <h2 class = "titleChurras"> Calculadora de Churrasco</h2>
+    </header>
+	
+<div class = "grid-container"> 
+	<div class="grid-item">
+      <label for="mulheres-qnt">Comidas</label>
+	</div>	
+
+	<div class="grid-item">
+      <label for="mulheres-qnt">Mulheres</label>
+      <input id="mulheres-qnt" type="text" />
+	</div>	
+
+	<div class="grid-item">
+      <label for="homens-qnt">Homens</label>
+      <input id="homens-qnt" type="text" />
+	</div>
+	
+	<div class="grid-item">
+      <label for="criancas-qnt">Crianças</label>
+      <input id="criancas-qnt" type="text" />
+	</div>
+</div>	
+	 			 
+	<div class="grid-container-acompanhamento">
+	<div class="grid-item-acompanhamento">
+	  <input id="acompanhamentos" type="checkbox" />	
+      <label for="acompanhamentos">acompanhamentos</label>
+	</div>  
+	</div>
+	    
+  <div class = "grid-container-bebida">
+  
+  <div class="grid-item-bebida">  	  
+      <label for="bebidas-alcoolicas">Bebidas</label>
+	</div>
+
+	<div class="grid-item-bebida">  	  
+      <label for="bebidas-alcoolicas">Bebidas alcoolicas</label>
+      <input id="bebidas-alcoolicas" type="text" />
+	</div>
+
+	<div class="grid-item-bebida">  
+      <label for="bebidas-nao-alcoolicas">Bebidas não alcoolicas</label>
+      <input id="bebidas-nao-alcoolicas" type="text" />
+    </div>
+  </div>
+    <br>
+	
+    <button id="botaoCalcular" class = "button">Calcular</button>
+      <div class="grid-item-bebida">
+        <div class="grid-item-resultado">
+          <label for="total-carne" id="total-carne"></label>
+        </div>
+        <div class="grid-item-resultado">
+          <label for="total-pessoas" id="total-pessoas"></label>
+        </div>
+        <div class="grid-item-resultado">
+          <label for="total-acompanhamento" id="total-acompanhamento"></label>
+        </div>
+        <div class="grid-item-resultado">
+          <label for="total-bebidas-nao-alcoolicas" id="total-bebidas-nao-alcoolicas"></label>
+        </div>
+        <div class="grid-item-resultado">
+          <label for="total-bebidas-alcoolicas" id="total-bebidas-alcoolicas"></label>
+        </div>
+        <div>
+      </div>
+    </div>
+    <script src="./src/main.js"></script>
+  </body>
+</html>

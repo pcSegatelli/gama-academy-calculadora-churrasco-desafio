@@ -1,0 +1,113 @@
+.background{
+	  background-color: #4B0082;
+}
+
+.title {
+  font-style: normal;
+  font-weight: 1000;
+  color: #FFFFFF;
+  margin-top: 30px;
+  font-weight: bold; 
+  font-family: URW Chancery L, cursive;
+  font-size: 15px;
+  
+   margin-left: auto;
+   margin-right: auto;
+   width: 15em;
+   
+   align = "center";
+}
+
+.titleChurras {
+  font-style: normal;
+  font-weight: 800;
+  color: #FFFFFF;
+  margin-top: 50px;
+  font-weight: bold;
+  font-family: Brush Script MT, Brush Script Std, cursive;
+  font-size: 50px;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 9em;
+}
+
+.button {
+  font-size: 20 em;
+  font-style: normal;
+  background: green;
+   
+  font-weight: 600;
+  color:  #FFFFFF;
+  margin-top: 100px;
+  font-weight: bold;	
+  position: center;
+  
+  margin-left: auto;
+  margin-right: auto;
+  width: 9em;
+}
+
+.grid-container {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container-bebida {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item-bebida {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container-resultado {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item-resultado {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-container-acompanhamento{
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+  background-color: #2196F3;
+  padding: 10px;
+}
+
+.grid-item-acompanhamento{
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
